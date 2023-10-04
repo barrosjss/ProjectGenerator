@@ -18,6 +18,7 @@ body {
   padding-top: 2rem;
   padding-bottom: 2rem;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .card {
@@ -34,7 +35,6 @@ body {
   font-size: 1.5em;
   color: rgb(88 199 250 / 0%);
   cursor: pointer;
-  font-family: cursive;
 }
 
 .card:hover {
@@ -89,14 +89,6 @@ body {
   }
 }
 
-a {
-  color: #212534;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-weight: bold;
-  margin-top: 2rem;
-}
-
 p {
   font-size: 20px;
 }
@@ -118,4 +110,14 @@ button {
 
 button:hover {
   background-color: #5ddcff;
+}
+
+a {
+  color: #191c29;
+  text-decoration: none;
+}
+
+.card:hover a {
+  color: #5ddcff;
+  text-decoration: none;
 }
