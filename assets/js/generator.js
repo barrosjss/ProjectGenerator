@@ -47,17 +47,21 @@ generateBtn.addEventListener("click", () => {
 
   generateBtn.disabled = true;
   messageP.textContent = "Buscando inspiración...";
-  projectDisplay.innerHTML = `<p class="selected-project spinning">Cocinando...</p>`;
-
+  
   let iterations = 0;
-  const maxIterations = 15;
-  const interval = setInterval(() => {
+  const maxIterations = 20;
+  let currentDelay = 50;
+
+  const spin = () => {
     const tempOption = getRandomOption();
     projectDisplay.innerHTML = `<p class="selected-project spinning">${tempOption[0]}</p>`;
     iterations++;
 
-    if (iterations >= maxIterations) {
-      clearInterval(interval);
+    if (iterations < maxIterations) {
+      // Create an easing effect by increasing delay as we approach the end
+      if (iterations > 10) currentDelay += 20;
+      setTimeout(spin, currentDelay);
+    } else {
       const [optionName, optionLink] = getRandomOption();
       
       messageP.textContent = "¡Proyecto seleccionado!";
@@ -66,8 +70,20 @@ generateBtn.addEventListener("click", () => {
         <a href="${optionLink}" target="_blank" class="project-link">Ver detalles</a>
       `;
       
+      // trigger celebration
+      if (typeof confetti === 'function' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        confetti({
+          particleCount: 60,
+          spread: 55,
+          origin: { y: 0.6 },
+          colors: ['#8b5cf6', '#06b6d4', '#ffffff']
+        });
+      }
+
       updateHistory(optionName, optionLink);
       generateBtn.disabled = false;
     }
-  }, 80);
+  };
+
+  spin();
 });

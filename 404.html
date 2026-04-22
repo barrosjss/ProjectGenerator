@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Página no encontrada | Challenge Generator</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <style>
+        .error-container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-code {
+            font-size: 6rem;
+            font-weight: 800;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+        .error-message {
+            font-size: 1.5rem;
+            color: var(--text-main);
+            margin-bottom: 2rem;
+        }
+        .back-btn {
+            display: inline-block;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            background: var(--primary);
+            color: white;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px var(--primary-glow);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="error-container">
+                <div class="error-code">404</div>
+                <h1 class="error-message">Oops! Te has perdido en la web.</h1>
+                <p style="color: var(--text-muted); margin-bottom: 2.5rem;">La página que buscas no existe o ha sido movida.</p>
+                <a href="./index.html" class="back-btn">Volver al inicio</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -4,14 +4,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Challenge Generator | Jr Web Dev Guide</title>
+  <title>Challenge Generator | De Aspirante a Web Dev Jr</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Generador de retos interactivo para desarrolladores web junior. Pon a prueba tus habilidades con proyectos reales.">
+  <meta name="keywords" content="web development, education, challenges, javascript, html, css, junior developer">
+  <meta name="author" content="Jesus Barros">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://barrosjss.github.io/desarrollo-web-jr/">
+  <meta property="og:title" content="Challenge Generator | Guía Web Dev Jr">
+  <meta property="og:description" content="¿No sabes qué programar? Genera un reto aleatorio y sube de nivel tus habilidades frontend.">
+  <meta property="og:image" content="./assets/img/logo.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://barrosjss.github.io/desarrollo-web-jr/">
+  <meta property="twitter:title" content="Challenge Generator | Guía Web Dev Jr">
+  <meta property="twitter:description" content="Generador de retos aleatorios para dominar el desarrollo web.">
+  <meta property="twitter:image" content="./assets/img/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/img/logo.png">
+
+  <!-- Resource Hints -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="./assets/style/style.css" as="style">
+  <link rel="preload" href="./assets/img/logo.png" as="image">
+  
+  <!-- Critical CSS -->
+  <style>
+    :root { --bg-dark: #030712; --card-bg: rgba(17, 24, 39, 0.7); }
+    body { background-color: var(--bg-dark); margin: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh; overflow: hidden; }
+    .card { background: var(--card-bg); backdrop-filter: blur(16px); border-radius: 24px; min-width: 320px; min-height: 400px; }
+  </style>
+
   <link rel="stylesheet" href="./assets/style/style.css">
+  
+  <!-- Confetti Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
 </head>
 
 <body>
   <div class="container">
     <div class="card">
+      <div class="logo-container">
         <img src="./assets/img/logo.png" alt="Logo" id="appLogo" />
+      </div>
       
       <h1>Challenge Generator</h1>
       
