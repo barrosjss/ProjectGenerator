@@ -87,33 +87,33 @@ Copia y pega esto en tu `index.html`:
 ```
 
 ---
-10: 
-11: ## 🚀 4. Retos Prácticos: Aplicando lo Aprendido
-12: 
-13: Para dominar el HTML, no basta con leer etiquetas; hay que entender cómo presentar información estructurada. Estos dos proyectos te obligarán a pensar en la arquitectura de la página.
-14: 
-15: ### Proyecto A: Tienda Estilo "Old School" (HTML Puro)
-16: En este reto construirás una tienda al estilo de las webs asiáticas clásicas (como Rakuten o Alibaba en sus inicios). 
-17: - **Objetivo**: Aprender a usar tablas para diseño, presentar grandes volúmenes de información, listas y jerarquía de etiquetas.
-18: - **Regla de Oro**: ¡Solo HTML! Nada de CSS por ahora. Usa atributos como `bgcolor`, `border` y `align`.
-19: - **Referencias Reales**: 
-20:     - [Rakuten Japan (Legacy Style)](https://www.rakuten.co.jp/) - Nota la densidad de información.
-21:     - [Cameron's World](https://www.cameronsworld.net/) - Inspiración visual de la web de los 90.
-22: 
-23: ### Proyecto B: Newsletter (Cuerpo de Correo)
-24: Aunque parezca mentira, el HTML "viejo" basado en tablas sigue siendo el estándar para los correos electrónicos que recibes a diario.
-25: - **Objetivo**: Crear un boletín informativo estructurado. Aprenderás por qué las tablas siguen siendo vitales para la compatibilidad entre Gmail, Outlook y otros.
-26: - **Referencias Reales**: 
-27:     - [Really Good Emails](https://reallygoodemails.com/) - Mira cómo se estructuran los correos modernos.
-28: 
-29: ---
-30: 
-31: ### 👨‍🏫 Ejemplos del Profe
-32: Si te bloqueas, puedes consultar estas implementaciones de referencia:
-33: - **[Ejemplo Tienda Asiática](../ejemplos-profe/tienda-asiatica/index.html)**
-34: - **[Ejemplo Newsletter Email](../ejemplos-profe/newsletter-email/index.html)**
-35: 
-36: ---
+
+## 🚀 4. Retos Prácticos: Aplicando lo Aprendido
+
+Para dominar el HTML, no basta con leer etiquetas; hay que entender cómo presentar información estructurada. Estos dos proyectos te obligarán a pensar en la arquitectura de la página.
+
+### Proyecto A: Tienda Estilo "Old School" (HTML Puro)
+En este reto construirás una tienda al estilo de las webs asiáticas clásicas (como Rakuten o Alibaba en sus inicios). 
+- **Objetivo**: Aprender a usar tablas para diseño, presentar grandes volúmenes de información, listas y jerarquía de etiquetas.
+- **Regla de Oro**: ¡Solo HTML! Nada de CSS por ahora. Usa atributos como `bgcolor`, `border` y `align`.
+- **Referencias Reales**: 
+    - [Rakuten Japan (Legacy Style)](https://www.rakuten.co.jp/) - Nota la densidad de información.
+    - [Cameron's World](https://www.cameronsworld.net/) - Inspiración visual de la web de los 90.
+
+### Proyecto B: Newsletter (Cuerpo de Correo)
+Aunque parezca mentira, el HTML "viejo" basado en tablas sigue siendo el estándar para los correos electrónicos que recibes a diario.
+- **Objetivo**: Crear un boletín informativo estructurado. Aprenderás por qué las tablas siguen siendo vitales para la compatibilidad entre Gmail, Outlook y otros.
+- **Referencias Reales**: 
+    - [Really Good Emails](https://reallygoodemails.com/) - Mira cómo se estructuran los correos modernos.
+
+---
+
+### 👨‍🏫 Ejemplos del Profe
+Si te bloqueas, puedes consultar estas implementaciones de referencia:
+- **[Ejemplo Tienda Asiática](../ejemplos-profe/tienda-asiatica/index.html)**
+- **[Ejemplo Newsletter Email](../ejemplos-profe/newsletter-email/index.html)**
+
+---
 
 ## 📍 Temas a Dominar (Próximos Pasos)
 
